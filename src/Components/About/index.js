@@ -1,25 +1,18 @@
+import '../../App.css';
+import SectionTitle from '../SectionTitle';
+
 export default function About() {
-    return (
-      <>
-      <div class="relative">
-      <div class=" max-w-7xl mx-auto m-12">
-        <div class="flex flex-wrap">
-          <div class="w-2/3 p-6">
-          <p className="mt-6 text-base text-center sm:text-xl lg:text-left text-white tracking-wider font-semibold break-all">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac euismod neque. 
-          Mauris arcu arcu, lobortis <span className="text-red-600">Nec maximus egestas, maximus eget lacus.</span> 
-          Fusce mollis et elit sed finibus. Quisque sed nunc vitae eros fermentum volutpat. 
-          In in laoreet purus. In tempus commodo lacus at elementum. Sed in turpis sed neque cursus posuere at et erat. 
-          Ut dignissim lorem eget mauris elementum, sed elementum lorem tempor. Aenean rhoncus vel lacus sit amet iaculis. 
-          Nulla facilisi.
-          </p>
-          </div>
+  return (
+    <div style={{ background: "#0f0e0ee1", borderRadius: "0.5rem", marginBottom: "2rem" }}>
+      <SectionTitle title="About The Hackathon" />
+      <div className="flex flex-col-reverse px-6 py-4 items-center md:justify-evenly md:flex-row">
+        <div className="flex text-lg leading-7 items-start text-justify font-secondary text-white w-full md:w-8/12 md:text-left">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat necessitatibus, aspernatur autem in, consequuntur deserunt, praesentium molestiae cumque explicabo dolorem ad doloremque eius officia. Neque animi, esse nostrum perferendis asperiores sint illo voluptatum at, minus nesciunt quidem aliquam, sequi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, repellendus!  praesentium molestiae cumque explicabo dolorem ad doloremque eius officia.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, maxime?
         </div>
+        <img className='pb-4' src="/Images/about/hackathons-logo.png" alt="" />
       </div>
-      <div class="absolute right-0 w-1/3 -my-72">
-          <img class="object-cover w-full" src="./Images/about/side.png" />
-      </div>
-      </div>
-      </>
-    )
-  }
+    </div>
+  )
+}
+// style={{ background: "#0f0e0ee1" }}

@@ -1,72 +1,43 @@
+import SectionTitle from "../SectionTitle";
+import '../../App.css';
+
 export default function SupportedBy() {
   return (
     <div>
-      <div class="container max-w-7xl mx-auto p-3">
-        <div class="flex flex-wrap">
-          <div class="w-full sm:w-1/4 p-6">
-            <img
-              class="border-solid rounded-xl border-4 border-red-600"
-              src="./Images/about/dsc-placeholder.jpg"
-            />
+      <SectionTitle title="Supported By" />
+      <div className="mt-12">
+        <div className="flex flex-col justify-between gap-4 items-center px-4 pb-20 md:flex-row">
+          <div style={{ width: "230px", borderRadius: "10px", overflow: "hidden" }}>
+            <img src="/Images/about/dsc-placeholder.jpg" className="" alt="" />
           </div>
-          <div class="w-5/6 sm:w-3/4 p-6">
-            <p className="mt-6 text-base text-center sm:text-xl lg:text-left text-white tracking-wider font-semibold break-all">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ac euismod neque. Mauris arcu arcu, lobortis{" "}
-              <span className="text-red-600">
-                Nec maximus egestas, maximus eget lacus.
-              </span>
-              Fusce mollis et elit sed finibus. Quisque sed nunc vitae eros
-              fermentum volutpat. In in laoreet purus. In tempus commodo lacus
-              at elementum. Sed in turpis sed neque cursus posuere at et erat.
-              Ut dignissim lorem eget mauris elementum, sed elementum lorem
-              tempor. Aenean rhoncus vel lacus sit amet iaculis. Nulla facilisi.
-            </p>
-          </div>
+          <p className="font-secondary text-lg leading-7  text-justify md:text-right md:w-9/12">
+            <h4 style={{ color: "#ef4444", fontWeight: "600" }} className="font-secondary text-lg pb-5 md:text-xl">
+              National Institute of Technology, Agartala
+            </h4>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda tempore temporibus amet numquam obcaecati ut, deserunt laudantium veniam expedita velit id atque beatae tenetur in magni est nam. Ea, ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laboriosam consequuntur blanditiis fugit non, fuga repellendus! Culpa totam repellendus ipsum ducimus qui recusandae quidem, nihil sed neque voluptas quo earum!
+          </p>
         </div>
-        <div class="flex flex-wrap">
-          <div class="w-5/6 sm:w-3/4 p-6">
-            <p className="mt-6 text-base text-center sm:text-xl lg:text-left text-white tracking-wider font-semibold break-all">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ac euismod neque. Mauris arcu arcu, lobortis{" "}
-              <span className="text-red-600">
-                Nec maximus egestas, maximus eget lacus.
-              </span>
-              Fusce mollis et elit sed finibus. Quisque sed nunc vitae eros
-              fermentum volutpat. In in laoreet purus. In tempus commodo lacus
-              at elementum. Sed in turpis sed neque cursus posuere at et erat.
-              Ut dignissim lorem eget mauris elementum, sed elementum lorem
-              tempor. Aenean rhoncus vel lacus sit amet iaculis. Nulla facilisi.
-            </p>
+        <div className="flex flex-col gap-4 justify-between items-center px-4 pb-20 md:flex-row-reverse">
+          <div style={{ width: "230px", borderRadius: "10px", overflow: "hidden" }}>
+            <img src="/Images/about/dsc-placeholder.jpg" className="" alt="" />
           </div>
-          <div class="w-full sm:w-1/4 p-6">
-            <img
-              class="border-solid rounded-xl border-4 border-red-600"
-              src="./Images/about/dsc-placeholder.jpg"
-            />
-          </div>
+          <p className="font-secondary text-lg leading-7 text-justify md:text-left md:w-9/12">
+            <h4 style={{ color: "#ef4444", fontWeight: "600" }} className="font-secondary text-lg pb-5 md:text-xl">
+              National Institute of Technology, Agartala
+            </h4>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda tempore temporibus amet numquam obcaecati ut, deserunt laudantium veniam expedita velit id atque beatae tenetur in magni est nam. Ea, ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laboriosam consequuntur blanditiis fugit non, fuga repellendus! Culpa totam repellendus ipsum ducimus qui recusandae quidem, nihil sed neque voluptas quo earum!
+          </p>
         </div>
-        <div class="flex flex-wrap">
-          <div class="w-full sm:w-1/4 p-6">
-            <img
-              class="border-solid rounded-xl border-4 border-red-600"
-              src="./Images/about/dsc-placeholder.jpg"
-            />
+        <div className="flex justify-between gap-4 flex-col items-center px-4 pb-20 md:flex-row">
+          <div style={{ width: "230px", borderRadius: "10px", overflow: "hidden" }}>
+            <img src="/Images/about/dsc-placeholder.jpg" className="" alt="" />
           </div>
-          <div class="w-5/6 sm:w-3/4 p-6">
-            <p className="mt-6 text-base text-center sm:text-xl lg:text-left text-white tracking-wider font-semibold break-all">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ac euismod neque. Mauris arcu arcu, lobortis{" "}
-              <span className="text-red-600">
-                Nec maximus egestas, maximus eget lacus.
-              </span>
-              Fusce mollis et elit sed finibus. Quisque sed nunc vitae eros
-              fermentum volutpat. In in laoreet purus. In tempus commodo lacus
-              at elementum. Sed in turpis sed neque cursus posuere at et erat.
-              Ut dignissim lorem eget mauris elementum, sed elementum lorem
-              tempor. Aenean rhoncus vel lacus sit amet iaculis. Nulla facilisi.
-            </p>
-          </div>
+          <p className="font-secondary text-lg leading-7 text-justify md:w-9/12 md:text-right">
+            <h4 style={{ color: "#ef4444", fontWeight: "600" }} className="font-secondary text-lg pb-5 md:text-xl">
+              National Institute of Technology, Agartala
+            </h4>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda tempore temporibus amet numquam obcaecati ut, deserunt laudantium veniam expedita velit id atque beatae tenetur in magni est nam. Ea, ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laboriosam consequuntur blanditiis fugit non, fuga repellendus! Culpa totam repellendus ipsum ducimus qui recusandae quidem, nihil sed neque voluptas quo earum!
+          </p>
         </div>
       </div>
     </div>

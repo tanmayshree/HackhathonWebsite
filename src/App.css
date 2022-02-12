@@ -1,9 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Roboto&display=swap');
+
 .App {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.font-primary {
+  font-family: 'Archivo', sans-serif;
+  color: white;
+  font-weight: 500;
+}
+
+.font-secondary {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .font-secondary {
+    font-size: 1rem;
+  }
+}
+
+/* .App {
   text-align: center;
   width: 100vw;
   height: 100vh;
+<<<<<<< HEAD
   max-width: 1300px;
   margin: 0 auto;
+=======
+
+>>>>>>> 1694a4852cc47c1952b4db876c53d704bfa4d736
 }
 
 .App-logo {
@@ -39,4 +72,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
