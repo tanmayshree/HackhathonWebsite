@@ -1,3 +1,5 @@
+import SectionTitle from "../SectionTitle"
+
 export default function Sponsors() {
   const sponsorCards = Array(9).fill(
     <div className="rounded-lg overflow-hidden">
@@ -19,11 +21,7 @@ export default function Sponsors() {
   ))
   return (
     <>
-      <h1 className="text-5xl text-center text-white font-semibold">
-        <span className="inline-block bg-white w-full sm:w-32 md:w-52 h-0.5 relative align-middle after:absolute after:bg-white after:w-2 after:h-2 after:rotate-45 after:right-1/2 sm:after:right-0 after:top-1/2 after:translate-x-1/2 sm:after:translate-x-0 after:-translate-y-1/2" />
-        <span> Sponsors </span>
-        <span className="inline-block bg-white w-full sm:w-32 md:w-52 h-0.5 relative align-middle after:absolute after:bg-white after:w-2 after:h-2 after:rotate-45 after:left-1/2 sm:after:left-0 after:top-1/2 after:-translate-x-1/2 sm:after:translate-x-0 after:-translate-y-1/2" />
-      </h1>
+      <SectionTitle title="Sponsors" />
       <p className="mt-6 capitalize text-xl text-center sm:text-2xl lg:text-left text-white tracking-wider font-semibold">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac euismod neque. Mauris arcu arcu, lobortis <span className="text-red-600">nec maximus egestas, maximus eget lacus.</span> la facilisi.
       </p>

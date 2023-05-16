@@ -15,16 +15,16 @@ const Speakers = () => {
             <div className='speakers_card_box mx-auto'>
                 {
                     SpeakersData.map((speaker, index) => {
-                        return <div key={index} className={`speakers_card img${index + 1} relative`}>
+                        return <div key={index} className={`speakers_card img relative`}>
                             <img src={speaker.img} className='speaker_card_img' alt="speaker's" />
-                            <div className='absolute font-secondary speakers_content bottom-2 right-4'>
-                                <span className='block text-right text-white'>
+                            <div className='absolute speakers_content bottom-2 '>
+                                <span className='block text-right'>
                                     {speaker.name}
                                 </span>
-                                <span className='speakers_small_text block text-right'>
+                                <span className='speakers_small_post block text-right'>
                                     {speaker.post}
                                 </span>
-                                <span className='speakers_small_text block text-right text-white'>
+                                <span className='speakers_small_date block text-right'>
                                     {speaker.date}
                                 </span>
                             </div>

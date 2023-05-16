@@ -2,58 +2,29 @@
     filter: brightness(110%);
 }
 
-.speakers_small_text {
-    font-size: 12px;
-    color: white;
+.speakers_small_post {
+    font-size: 14px;
+}
+
+.speakers_small_date {
+    font-size: 11px;
 }
 
 .speakers_content {
     padding: 5px 8px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
     background-color: rgba(255, 249, 249, 0.03);
 }
 
 .speakers_card_box {
-    max-width: 1200px;
+    max-width: 1350px;
     display: grid;
     place-items: center;
-    padding: 1.5rem 0;
-    grid-auto-columns: 1fr;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    gap: 2.75rem 0;
-    grid-template-areas:
-        ". . . . img3 img3"
-        ". . img2 img2 img3 img3"
-        "img1 img1 img2 img2 img3 img3"
-        "img1 img1 img2 img2 img6 img6"
-        "img1 img1 img5 img5 img6 img6"
-        "img4 img4 img5 img5 img6 img6"
-        "img4 img4 img5 img5 . ."
-        "img4 img4 . . . .";
-}
-
-.img3 {
-    grid-area: img3;
-}
-
-.img2 {
-    grid-area: img2;
-}
-
-.img1 {
-    grid-area: img1;
-}
-
-.img4 {
-    grid-area: img4;
-}
-
-.img5 {
-    grid-area: img5;
-}
-
-.img6 {
-    grid-area: img6;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1.25rem 0;
+    gap: 2.5rem 0;
 }
 
 .speakers_card {
@@ -64,51 +35,15 @@
 
 @media (max-width:1000px) {
     .speakers_card_box {
-        display: grid;
-        grid-auto-columns: 1fr;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(10, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem 0;
-        grid-template-areas:
-            ". . img2 img2"
-            "img1 img1 img2 img2"
-            "img1 img1 img2 img2"
-            "img1 img1 img4 img4"
-            "img3 img3 img4 img4"
-            "img3 img3 img4 img4"
-            "img3 img3 img6 img6"
-            "img5 img5 img6 img6"
-            "img5 img5 img6 img6"
-            "img5 img5 . .";
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:630px) {
     .speakers_card_box {
-        display: grid;
-        grid-auto-columns: 1fr;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(18, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 2rem 0px;
-        grid-template-areas:
-            "img1 img1"
-            "img1 img1"
-            "img1 img1"
-            "img2 img2"
-            "img2 img2"
-            "img2 img2"
-            "img3 img3"
-            "img3 img3"
-            "img3 img3"
-            "img4 img4"
-            "img4 img4"
-            "img4 img4"
-            "img5 img5"
-            "img5 img5"
-            "img5 img5"
-            "img6 img6"
-            "img6 img6"
-            "img6 img6";
     }
 
     .speakers_card {
